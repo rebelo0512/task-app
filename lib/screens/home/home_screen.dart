@@ -24,7 +24,8 @@ class HomeScreen extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (otherContext) => TaskCreateScreen()));
+                            builder: (otherContext) =>
+                                const TaskCreateScreen()));
                   },
                   icon: const Icon(
                     Icons.add,
